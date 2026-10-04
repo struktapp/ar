@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+$autoload = getcwd() . '/vendor/autoload.php';
+if (!is_file($autoload)) {
+    fwrite(STDERR, "Composer autoloader not found. Run 'composer install' in your project.\n");
+    exit(1);
+}
+require $autoload;
+
+$directory = dirname(__DIR__) . '/src/Strukt/Generate/Command';
+
+exit((new Strukt\Console\Runtime\Application($directory))->run($argv));
