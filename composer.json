@@ -31,7 +31,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../../strukt3/base",
+            "url": "../../strukt4/base",
             "options": {
                 "symlink": false,
                 "versions": {
@@ -41,7 +41,7 @@
         },
         {
             "type": "path",
-            "url": "../../strukt3/commons",
+            "url": "../../strukt4/commons",
             "options": {
                 "symlink": false,
                 "versions": {
@@ -51,7 +51,7 @@
         },
         {
             "type": "path",
-            "url": "../../strukt3/console",
+            "url": "../../strukt4/console",
             "options": {
                 "symlink": false,
                 "versions": {
