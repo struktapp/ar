@@ -5,9 +5,9 @@
     "license": "MIT",
     "require": {
         "php": ">=8.2",
-        "strukt/base": "dev-main",
-        "strukt/commons": "dev-main",
-        "strukt/console": "dev-main"
+        "strukt/base": "v1.0.0",
+        "strukt/commons": "v1.1.0",
+        "strukt/console": "v2.0.0"
     },
     "bin": [
         "bin/dbcli"
@@ -28,38 +28,6 @@
             "Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../../strukt4/base",
-            "options": {
-                "symlink": false,
-                "versions": {
-                    "strukt/base": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../../strukt4/commons",
-            "options": {
-                "symlink": false,
-                "versions": {
-                    "strukt/commons": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../../strukt4/console",
-            "options": {
-                "symlink": false,
-                "versions": {
-                    "strukt/console": "dev-main"
-                }
-            }
-        }
-    ],
     "scripts": {
         "test": "pest",
         "test:coverage": "pest --coverage",
