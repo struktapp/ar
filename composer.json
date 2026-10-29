@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "php": ">=8.2",
-        "strukt/base": "v1.0.0",
+        "strukt/base": "v1.1.0",
         "strukt/commons": "v1.1.0",
         "strukt/console": "v2.0.0"
     },
@@ -46,5 +46,6 @@
             "name": "pitsolu",
             "email": "pitsolu@gmail.com"
         }
-    ]
+    ],
+    "version":"1.0.0"
 }
